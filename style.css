@@ -1,0 +1,78 @@
+
+/* Reset default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0 20px;
+}
+
+/* Set font and background color */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Style the header */
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Style paragraphs */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+}
+nav {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+.nav-left {
+    display: flex;
+    align-self: center;
+}
+.nav-left h1 {
+    margin: 0
+}
+.nav-right {
+    margin-left: auto;
+}
+main {
+    margin: 0 20px;
+    display: flex;
+}
+main h3 {
+    padding: 0 20px;
+}
+.main-left {
+    width: 70%;
+}
+.main-right {
+    width: 30%;
+}
+
+
+.photo-me img {
+    width: 150px;
+    height: auto;
+}
+.about-me p {
+    text-align:left;
+}
