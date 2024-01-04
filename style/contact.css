@@ -30,9 +30,29 @@ form {
 }
 input {
     border: 1px solid #ccc;
+    padding-left: 10px;
     border-radius: 4px;
     box-sizing: border-box;
-    padding: 12px 20px;
     resize: vertical;
     grid-column-start: 2;
+}
+textarea {
+    border: 1px solid #ccc;
+    padding: 10px 10px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+#submit-btn {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    grid-column-start: 2;
+    padding: 20px;
+    
 }
