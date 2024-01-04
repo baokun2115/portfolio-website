@@ -1,21 +1,9 @@
-// Function to handle form submission
+document.getElementById('form1').addEventListener('submit', handleSubmit);
 function handleSubmit(event) {
   event.preventDefault();
 
   // Get form data
-  const name = document.getElementById('name').value;
-  const email = document.getElementById('email').value;
-  const message = document.getElementById('message').value;
+  var name = document.getElementById('name').value;
 
-  // Validate form data
-  if (!name || !email || !message) {
-    alert('Please fill in all fields');
-    return;
-  }
-  console.log(
-    `Your name is ${name} and email is ${email} and your message ${message}`
-  );
+  alert(name);
 }
-
-// Add event listener to form submit button
-document.getElementById('form1').addEventListener('submit', handleSubmit);

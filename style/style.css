@@ -1,4 +1,5 @@
 
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&family=Rubik+Scribble&display=swap');
 /* Reset default styles */
 body, h1, p {
     margin: 0;
@@ -7,7 +8,7 @@ body, h1, p {
 
 /* Set font and background color */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Noto Sans Mono', monospace;
     background-color: #f2f2f2;
 }
 
@@ -29,6 +30,10 @@ nav {
     margin: 20px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    font-family: 'Rubik Scribble', system-ui;
+    font-size: 24px;
+    font-weight: bold;
 }
 nav ul {
     list-style: none;
@@ -45,6 +50,7 @@ a {
 }
 
 .nav-left {
+    float: left;
     display: flex;
     align-self: center;
 }
@@ -52,7 +58,7 @@ a {
     margin: 0
 }
 .nav-right {
-    margin-left: auto;
+    margin-right: 20px
 }
 main {
     margin: 0 20px;
@@ -60,12 +66,14 @@ main {
 }
 main h3 {
     padding: 0 20px;
+    margin: 20px 0;
 }
 .main-left {
     width: 70%;
 }
 .main-right {
     width: 30%;
+    margin-top: 20px
 }
 
 
@@ -75,4 +83,7 @@ main h3 {
 }
 .about-me p {
     text-align:left;
+}
+.project li {
+    list-style-type: square;
 }
